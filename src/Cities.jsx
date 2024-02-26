@@ -23,7 +23,9 @@ export default function Cities() {
   ]
 
   let citiesList = cities.map(city => 
-    <City name={city.name} continent={city.continent} key={city.id} />
+    <City name={city.name} continent={city.continent} 
+      key={city.id} visited={city.visited}
+    />
   )
 
   return (

@@ -1,5 +1,11 @@
 .city {
   margin: 1rem;
   padding: 1rem;
-  background-color: darkorange;
+  background-color: teal;
+}
+.visited {
+  background-color: green;
+}
+.notvisited {
+  background-color: red;
 }
